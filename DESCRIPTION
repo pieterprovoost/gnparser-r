@@ -1,0 +1,14 @@
+Package: gnparser
+Type: Package
+Title: R wrapper for gnparser Go library
+Version: 0.1.0
+Authors@R: person("Pieter", "Provoost", email = "pieterprovoost@gmail.com", role = c("aut", "cre"))
+Description: R wrapper for gnparser Go library
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.5.0)
+Imports: Rcpp, jsonlite, dplyr, purrr
+LinkingTo: Rcpp
+SystemRequirements: C++11
+RoxygenNote: 7.3.2

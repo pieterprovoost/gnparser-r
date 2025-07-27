@@ -1,0 +1,8 @@
+*.pdf
+.Rhistory
+.DS_Store
+src/*.o
+src/*.so
+.Rproj.user/
+*.tar.gz
+*.tgz
