@@ -30,4 +30,4 @@ jobs:
       - name: Check
         uses: r-lib/actions/check-r-package@v2
         with:
-          cran: false
+          args: 'c("--no-manual")'
