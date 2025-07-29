@@ -28,7 +28,7 @@ bool load_library() {
     std::string lib_path;
     if (TYPEOF(pkg_result) == STRSXP && LENGTH(pkg_result) > 0) {
         std::string pkg_path = CHAR(STRING_ELT(pkg_result, 0));
-        lib_path = pkg_path + "/libs/" + lib_name;
+        lib_path = pkg_path + "/gnparser/" + lib_name;
     } else {
         Rf_error("Could not find gnparser package directory.");
         return false;
