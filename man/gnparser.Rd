@@ -6,9 +6,9 @@
 \alias{gnparser}
 \title{gnparser}
 \description{
-R interface to the gnparser library for parsing scientific names.
+R wrapper for gnparser Go library
 }
 \author{
-\strong{Maintainer}: Your Name \email{your.email@example.com}
+\strong{Maintainer}: Pieter Provoost \email{pieterprovoost@gmail.com}
 
 }
