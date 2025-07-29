@@ -10,7 +10,7 @@ jobs:
     strategy:
       matrix:
         config:
-          # - { os: ubuntu-latest, r: 'release' }
+          - { os: ubuntu-latest, r: 'release' }
           # - { os: windows-latest, r: 'release' }
           - { os: macos-latest, r: 'release' }
 
